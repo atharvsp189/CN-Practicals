@@ -1,0 +1,32 @@
+1) Make Connection 
+   Connect PC - Switch - Router
+		   |
+		Access Point
+	/	   |         \
+   PC		Laptop		SmartPhone
+
+2) Configure Router
+   config -> IP Address - 10.0.0.1 
+	     port status - on
+3) Configure upper PC
+   IP - 10.0.0.2
+   Default Gateway - 10.0.2.1
+4) Configure Lower PC
+   for wireless capability - 
+   Turn PC Down and Change Component and attach WMP300N
+   IP - 10.0.0.3
+   Default Gateway - 10.0.2.1
+5) Access Point -> config ->port 1 
+   Authentication WEP set WEP key -> 1234567890
+6) Lower PC -> Desktop -> PC Wireless
+   connect Enter WEP key
+7) Laptop
+   Turn Power Down remove port and add WPC300N and turn on power
+   set IP Address
+   Desktop -> PC -> wireless -> Enter WEP key -> connect
+8) Smartphone
+   config -> wireless0
+   Enter SSID Name
+   Enter WEP key
+
+It should be working Now

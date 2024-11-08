@@ -1,0 +1,38 @@
+1) Make Connections
+2) Router 1841
+
+   Router 0 - Router 1 - Router 2
+      |		 | 	     |
+    switch 1  switch 2     switch 3
+      | 	 |	      |
+  pc1   pc2   pc3 pc4      pc5   pc6
+
+3) select Router 0 
+   turn off -> Add WTC1T
+   same for Router 2
+   
+   IN Router 1 Add 2 WTC1T
+
+4) Assign IP to each PC
+   IP - 192.168.1.2
+   Default Gateway - 192.168.1.4
+   Network with same switch has same Default Gateway
+
+5) Assign IP to Router
+   -> config -> Fast Ethernet 0/0
+   IP -> Deafault Gateway of a Switch
+   port status on
+   Add subnet - 255.255.255.0
+
+6) For each Router 
+   config -> serial 0/0
+   IP of a Router
+   and set port status on
+
+7) For each Router 
+   In RIP ->
+   Add all connect IPs subnet
+   eg. if 192.168.1.4 and 192.168.2.3
+       add 
+       192.168.1.0 and 192.168.2.0
+  

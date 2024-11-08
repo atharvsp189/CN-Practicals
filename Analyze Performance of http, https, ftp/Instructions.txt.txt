@@ -1,0 +1,27 @@
+HTTP : 
+
+1) Make Connection
+2) Give IP to each PC
+3) Give IP to server
+4) server -> services ->
+   select http and Make changes to HTML
+5) server -> Desktop -> web Browser
+6) Enter IP of a server will get an HTML Page
+
+FTP :
+ 
+1) Make Connection
+2) Assign IP to server
+3) Assign IP to PC
+   Default Gateway is same as IP of server
+4) services -> Turn Every Service other than FTP off
+5) create user, password and set permission for user.
+6) come to any PC
+   command prompt
+   ipconfig
+   ftp ip_address
+   Enter username and password
+   when set to FTP
+   dir
+   delete File_name
+
